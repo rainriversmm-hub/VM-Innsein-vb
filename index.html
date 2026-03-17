@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Opening Viber Chat...</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #7360F2, #A580FF);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 400px;
+    padding: 30px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+
+  .logo {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 15px 35px;
+    font-size: 20px;
+    background: #00A2E8; /* Viber color */
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+
+  .button:hover {
+    background: #007bb5;
+    transform: scale(1.05);
+  }
+
+  .note {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+</style>
+
+<!-- Auto-redirect script -->
+<script>
+  // Redirect after 0.5 seconds
+  setTimeout(function(){
+    window.location.href = "viber://chat?number=959777001841";
+  }, 500);
+</script>
+
+</head>
+<body>
+<div class="container">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Viber_logo.svg" alt="Viber Logo" class="logo">
+  <h1>Opening Viber Chat...</h1>
+  <p>If it doesn’t open automatically, click the button below.</p>
+  <a class="button" href="viber://chat?number=959777001841">Open Viber Chat</a>
+  <p class="note">Make sure Viber is installed on your device.</p>
+</div>
+</body>
+</html>
